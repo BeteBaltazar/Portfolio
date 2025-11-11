@@ -1,11 +1,169 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br" data-bs-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Elizabete Baltazar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <p>Quando chegar em casa eu atualizo o site. Desculpa o transtorno.</p>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-transparent">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Elizabete Baltazar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hamburger">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="hamburger" class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobremim">Sobre mim</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#projetos">Projetos</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="https://github.com/BeteBaltazar">Contatos</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="https://drive.google.com/file/d/1dg-yVQvIdT5V9hlR8vxHaZ2d5WVa2DTN/view?usp=drive_link">Currículo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="gif">
+            <div class="container">
+                <h1 class="text-start">Meu portfólio</h1>
+                <!-- Tem que arrumar essa parte pois não está muito bom quando deixa o site responsivo-->
+            </div>
+        </section>
+        <section class="container">
+            <div class="row">
+                <div class="col-12 col-md-9">
+                    <h2 id="sobremim">Sobre mim!</h2>
+                    <p class="mt-4">Meu nome é Elizabete e atualmente estou cursando análise e desenvolvimento de
+                        sistemas na Fatec de São José dos Campos. Tenho como objetivo academico desenvolver meus
+                        conhecimentos na área de T.I principalmente na área de desenvolvimento web e desenvolvimento de
+                        jogos.</p>
+                    <p>Sou apaixonada por jogos desde de criança, e essa paixão foi o que me desespertou interesse em
+                        seguir carreira nessa área. Além disso também gostei de design e organização, o que me levou a
+                        realizar diversos trabalhos envolvendo criação de convites para festas, postagens para redes
+                        sociais, formatação de TCCs e organização de cerimônias.</p>
+                    <p>Atualmente sou integrante do Estúdio Luna, um estúdio indie de jogos, onde tive a oportunidade de
+                        propor e participar do desenvolvimento do projeto "Five Nights at Nelson, sendo responsável por
+                        toda a parte visual do jogo.</p>
+                    <p>No momento, estou estudando modelagem 3D e pretendo aprender Godot para expandir minhas
+                        habilidades na área de programação de jogos. Também gosto de programar por diversão usando
+                        Ren'Py, já tendo escrito mais de 3 mil linhas de código só nessa linguagem.</p>
+                    <p>Esse portfólio servirá para apresentar os projetos e habilidades adquiridas durante meu processo
+                        acadêmico. Por meio dele demonstrarei minhas capacidades e a minha evolução como programadora.
+                    </p>
+
+                    <hr>
+
+                    <h5 class="mt-4">Formação acadêmica</h5>
+                    <ul>
+                        <li>NUPA - Nucleo de Programadores do Amanhã (2023)</li>
+                        <li>Fatec - Análise e Desenvolvimento de Sistemas(Atualmente)</li>
+                    </ul>
+
+                    <h5 class="mt-4">Certificados </h5>
+                    <ul>
+                        <li>Workshop EBAC - Figma em dois dias: do zero á criação do seu protótipo</li>
+                    </ul>
+
+                    <h5 class="mt-4">Hard skills</h5>
+                    <ul>
+                        <li>Programação em Python</li>
+                        <li>Desenvolvimento web (HTML e CSS)</li>
+                        <li>Conhecimento do framework bootstrap</li>
+                        <li>Aplicação de prompt de IA </li>
+                        <li>Desenvolvimento de jogos</li>
+                    </ul>
+
+                    <h5 class="mt-4">Soft skills</h5>
+                    <ul>
+                        <li>Criatividade</li>
+                        <li>Proatividade</li>
+                        <li>Organização</li>
+                        <li>Trabalho em equipe</li>
+                        <li>Boa comunicação</li>
+                    </ul>
+
+                    <hr>
+
+                </div>
+                <div class=" col-12 col-md-3">
+                    <img width="350px" src="img/Foto Elizabete.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="row">
+                <h2 id="projetos">Projetos!</h2>
+            </div>
+
+            <h4 class="mt-4">Fatec</h4>
+            <br>
+
+            <div class="row justify-content-between">
+
+                <div class="card col-12 col-md-5">
+                    <img class="card-img-top" src="img/Tscrum screenshot.png" alt="">
+                    <div class="card-body">
+                        <a href="https://github.com/LucaSuzuki/FATEC-API-2025">
+                            <h5 class="card-title">API</h5>
+                        </a>
+                        <p class="card-text">Aplicação web de instruções para desenvolvimento de projetos ágeis na área
+                            de T.I, indicando todos os processos e artefatos da metodologia ágil(scrum) de forma simples
+                            e didática com exemplos práticos para a plena compreensão do usuário.</p>
+                    </div>
+                </div>
+
+                <div class="card col-12 col-md-5">
+                    <img class="card-img-top" src="img/Hogwarts screenshot.png" alt="">
+                    <div class="card-body">
+                        <a
+                            href="https://site-hogwarts.vercel.app/?classId=6e5a36e1-7375-4ac8-bb85-ed7e6dbb8a79&assignmentId=21e4d612-684c-417d-8a37-d5c13c4cc6f4&submissionId=91105c81-dfb1-0d33-50b9-db5fcf27fb19">
+                            <h5 class="card-title">Site Hogwarts</h5>
+                        </a>
+                        <p class="card-text">Site para desafio sugerido em aula. O site tem como inspiração a saga de
+                            livros Harry Potter, tendo as páginas home, sobre nós e contato estilizada de forma a
+                            reverenciar a obra.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h4 class="mt-4">Estúdio Luna</h4>
+            <br>
+
+            <div class="row justify-content-center">
+
+                <div class="card col-12 col-md-5">
+                    <img class="card-img-top" src="img/Fnan screenshot.png" alt="">
+                    <div class="card-body">
+                        <a href="https://jkdelta.itch.io/five-nights-at-nelson">
+                            <h5 class="card-title">Five Nights at Nelson</h5>
+                        </a>
+                        <p class="card-text">Jogo feito em parceria com outro membro do Estudio Luna para uma
+                            culminância do clube de programação da EEEI Nelson do Nascimento Monteiro. O jogo é
+                            inspirado em Five Nights at Freddy, um game de terror muito popular em 2014-2015, mas com
+                            figuras, ambientes e outros elementos que eram comuns no dia a dia dos estudantes da escola.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <br>
+    </main>
 </body>
 </html>
